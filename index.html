@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Przekierowanie...</title>
     
-    <!-- To jest kluczowy tag do przekierowania (0 to sekundy opóźnienia) -->
+    <!-- Główne przekierowanie -->
     <meta http-equiv="refresh" content="0; URL=https://google.com">
     
-    <!-- Link kanoniczny pomaga w SEO -->
+    <!-- Link kanoniczny dla wyszukiwarek -->
     <link rel="canonical" href="https://google.com">
 
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .loader { text-align: center; }
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f8fafc; color: #1e293b; }
+        .loader { text-align: center; padding: 2rem; border-radius: 12px; background: white; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); border: 1px solid #e2e8f0; }
+        a { color: #2563eb; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; color: #1d4ed8; }
+        strong { color: #0f172a; }
     </style>
 </head>
 <body>
     <div class="loader">
-        <p>Zaraz zostaniesz przekierowany...</p>
+        <p>Zaraz zostaniesz przekierowany do strony <strong>Ciężka Matma 64</strong>...</p>
         <p>Jeśli nic się nie dzieje, <a href="https://google.com">kliknij tutaj</a>.</p>
     </div>
 </body>
